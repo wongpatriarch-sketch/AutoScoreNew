@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# PyInstaller 构建产物
+build/
+dist/
+dist_new/
+_MEI*/
+*.manifest
+
+# 发布包
+GHD-Score-发布包/
+GHD-Score-发布包.zip
+*.zip
+
+# 打包时留下的临时锁文件（根目录下随机命名的 4-5 字节 ASCII 文件）
+/99oD9BVFKKRavIckFpw2
+/FpzKqcwEl2IgK8RE5sxZ
+/GFSirrsZtGwqQHQu0mht
+/JCA3nN7V4Yph723LkA9P
+/VRVbkKqozQeyagKa4J4I
+/fHOHX1TzIguLOKTmGx3y
+/gfKCGWkQyrWRXNbGXC53
+/hs9josK2E76jeyEvQ6Vw
+/lrdhoIEbopuc7CvdFWp0
+/rMZTLMuhllSWaFzBmvan
+/yKyjsUk6AVWbJrMNGVfp
+
+# 日志
+*.log
+ghd_score_error.log
+
+# 测试临时目录
+tests/_tmp_flow/
+tests/_tmp_test/
+tests/_tmp_ui/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
